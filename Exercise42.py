@@ -1,4 +1,4 @@
-Frequency=input('Enter the frequency: ')
+Frequency= float(input('Enter the frequency: '))
 if 260.63<=Frequency<=262.63:
     print('Musical note name is: C4')
 elif 292.66<=Frequency<=294.66:
@@ -13,3 +13,5 @@ elif 439.00<=Frequency<=441.00:
     print('Musical note name is: A4')
 elif 492.88<=Frequency==494.88:
     print('Musical note name is: B4')
+else:
+    print('The entered frequency has no exist in this exercise')
