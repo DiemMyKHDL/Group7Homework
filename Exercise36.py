@@ -1,5 +1,5 @@
 vowel=['a','e','i','o','u']
-letter=str(input('Enter the letter: '))
+letter=input('Enter the letter: ')
 if letter in vowel:
     print('letter is a vowel')
 elif letter == 'y':
